@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  api: 
+    image: vpsapinode
+    ports:
+      - "5000:5000"
+  client: 
+    image: vpsreact
+    ports:
+      - "5173:5173"
